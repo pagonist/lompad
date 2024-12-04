@@ -58,7 +58,7 @@ def search_for_private_key(start, end, target_address):
             break
 
 def main():
-    target_address = "16RGFo6hjq9ym6Pj7N5H7L1NR1rVPJyw2v"
+    target_address = "1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9"
     
     print(f"Starting random private key search for target address")
     send_to_discord(f"Starting random private key search for target address")
