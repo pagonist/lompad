@@ -16,7 +16,7 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 
-DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1313595983678017649/Bm06HRH4NMy16rBC8Qzae3Uk_tBdRwBlvHPXGZM2gqJWVPEpM4tqINfjjLMZeDZKK_f2'
+DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1313862684999024731/NLVhONyeea4cCTcnOVEfD_Owqv5312Iq8wN9aI4q6yopWa8YcyB0qgGVx5wxILU-0wf-'
 
 def send_to_discord(content):
     data = {"content": content}
